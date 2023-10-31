@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+/*font-family: 'Montserrat', sans-serif;*/
+
+/*colores:
+#FAE8B3 beige
+#522F15 marron
+*/
+html{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 62.5%;
+}
+
+h1{
+    font-size:medium
+}
+
+h2{
+    font-size:larger;
+}
+
+p{
+    font-size: medium;
+}
+
+.miColor{
+    background-color: #522F15;
+}
+header{
+    background-color:#522F15 ;
+}
+
+
+
+header ul{
+    
+    list-style-type: none;
+
+}
+
+header a{
+    color: #FAE8B3;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: small;
+}
+a:link{
+    color: #FAE8B3;
+}
+a.nav-link:visited{
+    color: darkseagreen;
+}
+
+a.nav-link:hover{
+    color:rgb(193, 114, 10)
+}
+a.nav-link:active{
+    color: aqua;
+}
+.logo{
+    width: 90px;
+    height: 84px;
+}
+
+.banner{
+    background-color:#FAE8B3;
+    text-align:center;
+    align-content: space-around;
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #522F15;
+}
+
+
+.navbar-toggler{
+    background-color: #FAE8B3;
+}
+
+
+.tituloBanner{
+    font-size: 5rem;
+    font-style: italic;
+}
+
+.cafe{
+    font-size: large;
+}
+
+.nosotros {
+    background-size: cover;
+}
+.nosotros img{
+    width:100%
+}
+.nosotros p{
+    color: rgb(226, 207, 164);
+}
+
+.texto1{
+    background-color:#FAE8B3 ;
+}
+.texto1 p{
+    color:#28170a;
+    text-align:center;
+    align-items: center;
+    font-size: xx-large;
+}
+
+.cafe p{
+    color:#28170a;
+    text-align:center;
+    align-items: center;
+    font-size: x-large;
+
+}
+.curso {
+    background-color:#FAE8B3;
+    text-align:center;
+    align-content: space-around;
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #522F15;
+}
+.cafe img{
+    width:80%;
+    align-items: flex-start;
+    justify-items: center;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.curso img{
+    width:45%;
+    align-items:center;
+    justify-items: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border-color: #522F15;
+    border-style:ridge;
+    border-radius: 5px;
+}
+
+.suc {
+    background-color:#FAE8B3;
+    text-align:center;
+    align-content: space-around;
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #522F15;
+}
+.suc img {
+    width:30%;
+    align-items: center;
+    justify-items: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border-color: #522F15;
+    border-style:ridge;
+    border-radius: 5px;
+    
+}
+
+.suc p{
+    margin-bottom: 0px;
+    
+
+
+}
+section img {
+    width: 60%;
+    align-items: flex-start;
+    justify-items: center;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    border-color: #522F15;
+    border-style:ridge;
+}
+
+.booking {
+    background-color:#FAE8B3;
+    text-align:center;
+    align-content: space-around;
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #522F15;
+}
+.booking img {
+    width: 30%;
+    align-items: flex-start;
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    border-color: #522F15;
+    border-style:ridge;
+
+}
+
+.map p {
+    margin-top: 30px;
+}
+footer{
+    display: flex;
+    justify-content:right;
+    background-color:white;
+    
+}
+footer img{
+    width: 30px;
+}
+
+footer div{
+   width: 10%;
+}
+footer.logoSobre{
+    margin-right:auto;
+}
+footer.logoFacebook{
+    margin-left:auto
+}
+footer.logoInstagram{
+    margin-left: auto;
+}
+.tazas p{
+    background-color: #28170a;
+    font-size:large;
+    color:#FAE8B3;
+    text-align: center;
+}
+.divisor p{
+    background-color: #28170a;
+    
+    font-size:x-large;
+    color:#FAE8B3;
+    text-align: center;
+}
+.sucursales p{
+    background-color: #28170a;
+    font-size:x-large;
+    color:#FAE8B3;
+    text-align: center;
+}
+
+.sucursales img{
+    width: 50px;
+}
+
+.form {
+    margin-top: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.form p {
+    text-align: center;
+}
