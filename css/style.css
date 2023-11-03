@@ -105,14 +105,37 @@ a.nav-link:active{
     align-items: center;
     font-size: x-large;
 }
-
 .cafe p{
+    display: flex;
+    flex-direction: column;
     color:#28170a;
-    text-align:center;
-    align-items: center;
+    text-align:justify;
+    align-items:center;
     font-size: x-large;
 
 }
+
+.row {
+    background-position: center;
+    align-items:center;
+    justify-content: center;
+    
+}
+.visual-tazas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mt-5 {
+    margin-top: 1rem;
+}
+
+.col-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+
 .curso {
     background-color:#FAE8B3;
     text-align:center;
@@ -122,11 +145,12 @@ a.nav-link:active{
     background-repeat: no-repeat;
     color: #522F15;
 }
+
 .cafe img{
     width:80%;
     align-items: flex-start;
     justify-items: center;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-left: 30px;
 }
 
@@ -213,8 +237,20 @@ footer img{
 }
 
 footer div{
-   width: 10%;
+	 display: flex;
+   width: 30%;
+   align-items: flex-end;
+   margin-right: 0%;
+   flex-direction: row;
+   flex-wrap: wrap;
+	 justify-content: flex-end;
 }
+.medios {
+    display: flex;
+    align-content: end;
+    align-items: end;
+}
+
 footer.logoSobre{
     margin-right:auto;
 }
@@ -224,6 +260,7 @@ footer.logoFacebook{
 footer.logoInstagram{
     margin-left: auto;
 }
+
 .tazas p{
     background-color: #28170a;
     font-size:large;
@@ -254,5 +291,33 @@ footer.logoInstagram{
     margin-right: 200px;
 }
 .form p {
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    
 }
+.form border {
+    display: flex;
+    align-content: center;
+
+}
+
+.form-control-label {
+    box-sizing: content-box;
+}
+
+.mb-3 {
+    display:flex;flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content:center;
+    
+}
+.medios {
+    align-items: ;
+}
+@media (max-width: 600px) {
+    body {
+      background-color: #87ceeb;
+    }
+  }
