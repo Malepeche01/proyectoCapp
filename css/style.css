@@ -102,15 +102,15 @@ a.nav-link:active{
     color:#28170a;
     text-align:center;
     align-items: center;
-    font-size: x-large;
+    font-size:large;
 }
 .cafe p{
     display: flex;
     flex-direction: column;
     color:#28170a;
-    text-align:justify;
+    text-align:start;
     align-items:center;
-    font-size: x-large;
+    font-size:large;
 
 }
 
