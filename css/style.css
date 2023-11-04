@@ -101,7 +101,7 @@ a.nav-link:active{
 .texto1 p{
     color:#28170a;
     text-align:center;
-    align-items: center;
+    align-items: flex-start;
     font-size:large;
 }
 .cafe p{
@@ -109,7 +109,7 @@ a.nav-link:active{
     flex-direction: column;
     color:#28170a;
     text-align:start;
-    align-items:center;
+    align-items:flex-start;
     font-size:large;
 
 }
