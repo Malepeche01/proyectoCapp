@@ -30,7 +30,6 @@ header{
 }
 
 
-
 header ul{
     
     list-style-type: none;
@@ -165,6 +164,7 @@ a.nav-link:active{
     border-radius: 5px;
 }
 
+
 .suc {
     background-color:#FAE8B3;
     text-align:center;
@@ -188,7 +188,6 @@ a.nav-link:active{
 
 .suc p{
     margin-bottom: 0px;
-    
 
 
 }
@@ -287,19 +286,13 @@ footer.logoInstagram{
 
 .form {
     margin-top: 10px;
-    margin-left: 200px;
-    margin-right: 200px;
 }
+
 .form p {
     display: flex;
     flex-direction: column;
     text-align: center;
     
-}
-.form border {
-    display: flex;
-    align-content: center;
-
 }
 
 .form-control-label {
@@ -313,11 +306,4 @@ footer.logoInstagram{
     justify-content:center;
     
 }
-.medios {
-    align-items: ;
-}
-@media (max-width: 600px) {
-    body {
-      background-color: #87ceeb;
-    }
-  }
+
