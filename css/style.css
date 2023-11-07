@@ -108,8 +108,8 @@ a.nav-link:active{
     display: flex;
     flex-direction: column;
     color:#28170a;
-    text-align:start;
-    align-items:flex-start;
+    text-align:center;
+    align-items:center;
     font-size:large;
 
 }
