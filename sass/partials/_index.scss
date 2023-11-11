@@ -1,0 +1,87 @@
+@import "generales/variables";
+@import "partials/footer";
+
+/*header*/
+
+
+header{
+    background-color:$marron ;
+    nav{
+    background-color: $marron; 
+      ul{
+        list-style-type: none;
+        
+        a{
+          color:$beige;
+          text-decoration: none;
+          font-family: $font;
+          font-size: small;  
+      
+        .img{
+          width: 90px;
+          height: 84px;
+        
+
+
+        .navbar-toggler{
+          background-color: #FAE8B3;
+          
+          
+          
+            }
+           
+            }
+        }  
+
+          }
+         }
+        }
+       
+  
+    
+  
+
+
+/*main index*/
+.banner{
+    background-color:$beige;
+    text-align:center;
+    align-content: space-around;
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    color:$marron;
+
+    .tituloBanner{
+      font-size: 5rem;
+      font-style: italic;
+      align-items: center;
+
+    .textoBanner{
+      align-items: center;
+    }
+  
+  }
+    .nosotros{
+      background-size: cover;
+        img{
+          width:100%;
+        .texto1{
+            background-color:$beige ;
+            p{
+              color: rgb(226, 207, 164);
+          }
+        .cafe p{
+          display: flex;
+          flex-direction: column;
+          color:#28170a;
+          text-align:center;
+          align-items:center;
+          font-size:large;
+        }
+          }
+        
+    }
+  }
+  }
+  

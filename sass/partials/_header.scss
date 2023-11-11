@@ -1,0 +1,36 @@
+/*header*/
+header{
+    background-color:$marron; 
+    a{
+        color:$beige;
+        text-decoration: none;
+        font-family:$font;
+        font-size: small;
+        :link{
+            color:$beige;
+        }
+    nav{
+        .logo{
+            width: 90px;
+            height: 84px;
+        .navbar-toggler{
+            background-color:$beige;
+        }
+        }
+        ul{
+            list-style-type: none;
+        }
+            li{
+            li a.nav-link
+            :visited{ color: darkseagreen;
+            :active{color: aqua;
+            :hover{color:rgb(193, 114, 10)
+              }
+             }
+            }
+       
+        }
+        }     
+       
+    }    
+}

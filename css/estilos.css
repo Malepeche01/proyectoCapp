@@ -1,0 +1,114 @@
+.tazas {
+  width: 60%;
+  align-items: flex-start;
+  justify-items: center;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  border-color: #522F15;
+  border-style: ridge;
+}
+
+/*header*/
+header {
+  background-color: #522F15;
+}
+header a {
+  color: #FAE8B3;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: small;
+}
+header a :link {
+  color: #FAE8B3;
+}
+header a nav .logo {
+  width: 90px;
+  height: 84px;
+}
+header a nav .logo .navbar-toggler {
+  background-color: #FAE8B3;
+}
+header a nav ul {
+  list-style-type: none;
+}
+header a nav li li a.nav-link :visited {
+  color: darkseagreen;
+}
+header a nav li li a.nav-link :visited :active {
+  color: aqua;
+}
+header a nav li li a.nav-link :visited :active :hover {
+  color: rgb(193, 114, 10);
+}
+
+/*header*/
+  
+header nav {
+  background-color: #522F15;
+}
+header nav a {
+  color: #FAE8B3;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: small;
+}
+header nav a .logo {
+  width: 90px;
+  height: 84px;
+}
+header nav a .logo .navbar-toggler {
+  background-color: #FAE8B3;
+}
+header nav a .logo .navbar-toggler li :link {
+  color: #FAE8B3;
+}
+header nav a .logo .navbar-toggler li :link nav-link:visited {
+  color: darkseagreen;
+}
+header nav a .logo .navbar-toggler li :link nav-link:visited nav-link:hover {
+  color: rgb(193, 114, 10);
+}
+header nav a .logo .navbar-toggler li :link nav-link:visited nav-link:hover nav-link:active {
+  color: aqua;
+}
+
+/*main index*/
+.banner {
+  background-color: #FAE8B3;
+  text-align: center;
+  align-content: space-around;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #522F15;
+}
+.banner .tituloBanner {
+  font-size: 5rem;
+  font-style: italic;
+  align-items: center;
+}
+.banner .tituloBanner .textoBanner {
+  align-items: center;
+}
+.banner .nosotros {
+  background-size: cover;
+}
+.banner .nosotros img {
+  width: 100%;
+}
+.banner .nosotros img .texto1 {
+  background-color: #FAE8B3;
+}
+.banner .nosotros img .texto1 p {
+  color: rgb(226, 207, 164);
+}
+.banner .nosotros img .texto1 .cafe p {
+  display: flex;
+  flex-direction: column;
+  color: #28170a;
+  text-align: center;
+  align-items: center;
+  font-size: large;
+}
+
+/*# sourceMappingURL=estilos.css.map */

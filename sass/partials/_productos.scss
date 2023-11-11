@@ -1,0 +1,76 @@
+/*main index*/
+@import "generales/variables";
+
+.logo{
+  width: 90px;
+  height: 84px;
+   
+/*main productos*/  
+.banner{
+  background-color:#FAE8B3;
+  text-align:center;
+  align-content: space-around;
+  background-size:contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #522F15;
+
+  .tituloBanner{
+    font-size: 5rem;
+    font-style: italic;
+}
+
+  .cafe p{
+    display: flex;
+    flex-direction: column;
+    color:#28170a;
+    text-align:center;
+    align-items:center;
+    font-size:large;
+
+    .row {
+        background-position: center;
+        align-items:center;
+        justify-content: center;
+
+        .col-6 {
+          flex: 0 0 auto;
+          width: 50%;
+        .mt-5 {
+            margin-top: 1rem;
+
+            .visual-tazas {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+
+            .tazas {
+              width: 60%;
+              align-items: flex-start;
+              justify-items: center;
+              margin-bottom: 30px;
+              border-radius: 5px;
+              border-color: #522F15;
+              border-style:ridge;
+        
+        
+       
+  
+   
+
+
+     
+    
+    
+  }
+}
+
+
+}
+
+
+} 
+}
+}
+}
+}
