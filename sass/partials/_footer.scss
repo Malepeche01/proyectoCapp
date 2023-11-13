@@ -1,24 +1,36 @@
+
 /*footer*/
 
 footer{
-    .medios {
+      
         display: flex;
         align-content: end;
         align-items: end;
-    
-        img{
+
+        
+
+        div{
+            display: flex;
+            width: 30%;
+            align-items: flex-end;
+            margin-right: 0%;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+
+            footer img{
+              width: 30px;
+            
+            }
             .logoSobre{
                 margin-right:auto;
-        
-                .logoFacebook{
+            }
+            .logoFacebook{
                 margin-left:auto;
-        
-                .logoInstagram{
+            }  
+            .logoInstagram{
                 margin-left: auto;
-        }
+            }
        
-}
-}
     }
-}
-}
+  }  

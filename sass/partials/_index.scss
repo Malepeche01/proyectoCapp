@@ -1,48 +1,6 @@
-@import "generales/variables";
-@import "partials/footer";
-
-/*header*/
-
-
-header{
-    background-color:$marron ;
-    nav{
-    background-color: $marron; 
-      ul{
-        list-style-type: none;
-        
-        a{
-          color:$beige;
-          text-decoration: none;
-          font-family: $font;
-          font-size: small;  
-      
-        .img{
-          width: 90px;
-          height: 84px;
-        
-
-
-        .navbar-toggler{
-          background-color: #FAE8B3;
-          
-          
-          
-            }
-           
-            }
-        }  
-
-          }
-         }
-        }
-       
-  
-    
-  
-
 
 /*main index*/
+
 .banner{
     background-color:$beige;
     text-align:center;
@@ -83,5 +41,5 @@ header{
         
     }
   }
-  }
+}
   

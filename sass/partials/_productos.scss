@@ -1,10 +1,3 @@
-/*main index*/
-@import "generales/variables";
-
-.logo{
-  width: 90px;
-  height: 84px;
-   
 /*main productos*/  
 .banner{
   background-color:#FAE8B3;
@@ -18,6 +11,9 @@
   .tituloBanner{
     font-size: 5rem;
     font-style: italic;
+
+  .divisor p{
+      background-color: #28170a;
 }
 
   .cafe p{
@@ -37,21 +33,24 @@
           flex: 0 0 auto;
           width: 50%;
         .mt-5 {
-            margin-top: 1rem;
+          margin-top: 1rem;
 
-            .visual-tazas {
-              display: flex;
-              align-items: center;
-              justify-content: center;
+        .visual-tazas {
+            display: flex;
+            align-items: center;
+            justify-content: center;
 
             .tazas {
-              width: 60%;
+              img{
+                width: 60%;
               align-items: flex-start;
               justify-items: center;
               margin-bottom: 30px;
               border-radius: 5px;
               border-color: #522F15;
               border-style:ridge;
+              }
+              
         
         
        
