@@ -159,7 +159,7 @@ header nav .container-fluid ul li :hover {
   font-size: large;
 }
 
-/*reservas*/
+/*main reservas*/
 .banner {
   background-color: #FAE8B3;
   text-align: center;
@@ -178,6 +178,26 @@ header nav .container-fluid ul li :hover {
   align-items: center;
 }
 
+.booking {
+  background-color: #FAE8B3;
+  text-align: center;
+  align-content: space-around;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #522F15;
+}
+.booking img {
+  width: 20%;
+  align-items: center;
+  margin-left: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  border-color: #522F15;
+  border-style: ridge;
+}
+
 /*main productos*/
 .banner {
   background-color: #FAE8B3;
@@ -194,6 +214,29 @@ header nav .container-fluid ul li :hover {
 }
 .banner .tituloBanner .divisor p {
   background-color: #28170a;
+}
+
+.suc {
+  background-color: #FAE8B3;
+  text-align: center;
+  align-content: space-around;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #522F15;
+}
+.suc img {
+  width: 30%;
+  align-items: center;
+  justify-items: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  border-color: #522F15;
+  border-style: ridge;
+  border-radius: 5px;
+}
+.suc img p {
+  margin-bottom: 0px;
 }
 
 /*footer*/
