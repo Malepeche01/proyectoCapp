@@ -10,35 +10,34 @@ header{
           font-family: $font;
           font-size: small;
         }
-          
-        .logo{
-          width: 90px;
-          height: 84px;
-        }
-        button{
-          .navbar-toggler{
-            background-color:$beige;
+        .container-fluid{
+          .logo{
+            width: 90px;
+            height: 84px;
           }
-        } 
-          ul{ 
+      
+          .navbar-toggler{
+              background-color:$beige;
+          }
+             
+       
+            ul{ 
               list-style-type: none;
               .navbar-nav{
                 display: flex;
               }  
-              li{
-                a{
-                  .nav-link{color:$beige;
-                  }
-                  :visited{ color: darkseagreen;
-                  }
-                  :active{color: aqua;
-                  }
-                  :hover{color:rgb(193, 114, 10)
-                  }
+              li{ 
+                :visited{ color: darkseagreen;
                 }
+                :active{color: aqua;
+                }
+                :hover{color:rgb(193, 114, 10)
+                }
+                  
               }
-     
-          }    
+            }
+        }     
     }
-  }
-    
+          
+}  
+     

@@ -2,23 +2,26 @@
 /*footer*/
 
 footer{
-      
+        background-color: white;
         display: flex;
-        align-content: end;
-        align-items: end;
-
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        align-items: flex-end;
         
+    
 
         div{
             display: flex;
             width: 30%;
-            align-items: flex-end;
+            align-content: center;
+            align-items: end;
             margin-right: 0%;
             flex-direction: row;
             flex-wrap: wrap;
-            justify-content: flex-end;
+            justify-content: end;
 
-            footer img{
+            img{
               width: 30px;
             
             }
@@ -29,8 +32,8 @@ footer{
                 margin-left:auto;
             }  
             .logoInstagram{
-                margin-left: auto;
+                margin-left:auto;
             }
        
     }
-  }  
+  } 
