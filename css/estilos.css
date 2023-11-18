@@ -123,12 +123,12 @@ header nav .container-fluid ul li :hover {
   color: beige;
 }
 
-.container-fluid {
+.cafe .container-fluid {
   background-position: center;
   align-items: center;
   justify-content: center;
 }
-.container-fluid .col-6 {
+.cafe .col-6 {
   width: 50%;
   margin-top: 1rem;
   display: flex;
@@ -136,21 +136,21 @@ header nav .container-fluid ul li :hover {
   flex-direction: column;
   justify-content: center;
 }
-.container-fluid .col-6 p {
+.cafe .col-6 p {
   display: flex;
   text-align: center;
   align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
 }
-.container-fluid .col-6 .img-fluid {
+.cafe .col-6 .img-fluid {
   display: flex;
   align-items: center;
   border-radius: 5px;
   border-color: #522F15;
   border-style: ridge;
 }
-.container-fluid .col-8-sm {
+.cafe .col-8-sm {
   display: flex;
   flex-direction: column;
   color: #28170a;
@@ -239,6 +239,26 @@ header nav .container-fluid ul li :hover {
   margin-bottom: 0px;
 }
 
+.curso {
+  background-color: #FAE8B3;
+  text-align: center;
+  align-content: space-around;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #522F15;
+}
+.curso img {
+  width: 45%;
+  align-items: center;
+  justify-items: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  border-color: #522F15;
+  border-style: ridge;
+  border-radius: 5px;
+}
+
 /*footer*/
 footer {
   background-color: white;
@@ -247,6 +267,8 @@ footer {
   flex-wrap: wrap;
   justify-content: flex-end;
   align-items: flex-end;
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
 footer div {
   display: flex;
