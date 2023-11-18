@@ -1,6 +1,47 @@
 /*tipografia*/
 /*colores*/
+/*mixin*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+.texto1 p {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #522F15;
+  font-size: large;
+}
+
+.cafe p {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #522F15;
+  font-size: medium;
+}
+
+p {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #522F15;
+  font-size: medium;
+}
+
+.divisor p {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #FAE8B3;
+  font-size: medium;
+}
+
 html {
   font-family: "Montserrat", sans-serif;
   font-size: 62.5%;
@@ -22,7 +63,7 @@ p {
   background-color: #522F15;
 }
 
-/*header*/
+/*header-banner*/
 header {
   background-color: #522F15;
 }
@@ -58,7 +99,6 @@ header nav .container-fluid ul li :hover {
   color: rgb(193, 114, 10);
 }
 
-/*main index*/
 .banner {
   background-color: #FAE8B3;
   text-align: center;
@@ -76,19 +116,21 @@ header nav .container-fluid ul li :hover {
 .banner .tituloBanner .textoBanner {
   align-items: center;
 }
-.banner .nosotros {
+
+/*main index*/
+.nosotros {
   background-size: cover;
 }
-.banner .nosotros img {
+.nosotros img {
   width: 100%;
 }
-.banner .nosotros img .texto1 {
+.nosotros img .texto1 {
   background-color: #FAE8B3;
 }
-.banner .nosotros img .texto1 p {
+.nosotros img .texto1 p {
   color: rgb(226, 207, 164);
 }
-.banner .nosotros img .texto1 .cafe p {
+.nosotros img .texto1 .cafe p {
   display: flex;
   flex-direction: column;
   color: #28170a;
@@ -98,37 +140,15 @@ header nav .container-fluid ul li :hover {
 }
 
 /*main productos*/
-.banner {
-  background-color: #FAE8B3;
-  text-align: center;
-  align-content: space-around;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  color: #522F15;
-}
-.banner .tituloBanner {
-  font-size: 5rem;
-  font-style: italic;
-}
-
 .divisor {
   background-color: #28170a;
 }
-.divisor p {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  align-items: center;
-  color: beige;
-}
-
-.cafe .container-fluid {
+.divisor .cafe .container-fluid {
   background-position: center;
   align-items: center;
   justify-content: center;
 }
-.cafe .col-6 {
+.divisor .cafe .col-6 {
   width: 50%;
   margin-top: 1rem;
   display: flex;
@@ -136,21 +156,21 @@ header nav .container-fluid ul li :hover {
   flex-direction: column;
   justify-content: center;
 }
-.cafe .col-6 p {
+.divisor .cafe .col-6 p {
   display: flex;
   text-align: center;
   align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
 }
-.cafe .col-6 .img-fluid {
+.divisor .cafe .col-6 .img-fluid {
   display: flex;
   align-items: center;
   border-radius: 5px;
   border-color: #522F15;
   border-style: ridge;
 }
-.cafe .col-8-sm {
+.divisor .cafe .col-8-sm {
   display: flex;
   flex-direction: column;
   color: #28170a;
@@ -160,7 +180,7 @@ header nav .container-fluid ul li :hover {
 }
 
 /*main reservas*/
-.banner {
+.booking, .curso, .suc {
   background-color: #FAE8B3;
   text-align: center;
   align-content: space-around;
@@ -169,25 +189,7 @@ header nav .container-fluid ul li :hover {
   background-repeat: no-repeat;
   color: #522F15;
 }
-.banner .tituloBanner {
-  font-size: 5rem;
-  font-style: italic;
-  align-items: center;
-}
-.banner .tituloBanner .textoBanner {
-  align-items: center;
-}
-
-.booking {
-  background-color: #FAE8B3;
-  text-align: center;
-  align-content: space-around;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  color: #522F15;
-}
-.booking img {
+.booking img, .curso img, .suc img {
   width: 20%;
   align-items: center;
   margin-left: 10px;
@@ -199,64 +201,15 @@ header nav .container-fluid ul li :hover {
 }
 
 /*main productos*/
-.banner {
-  background-color: #FAE8B3;
-  text-align: center;
-  align-content: space-around;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  color: #522F15;
-}
-.banner .tituloBanner {
-  font-size: 5rem;
-  font-style: italic;
-}
-.banner .tituloBanner .divisor p {
-  background-color: #28170a;
-}
-
-.suc {
-  background-color: #FAE8B3;
-  text-align: center;
-  align-content: space-around;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  color: #522F15;
-}
 .suc img {
-  width: 30%;
+  width: 20%;
   align-items: center;
-  justify-items: center;
+  margin-left: 10px;
   margin-top: 30px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+  border-radius: 5px;
   border-color: #522F15;
   border-style: ridge;
-  border-radius: 5px;
-}
-.suc img p {
-  margin-bottom: 0px;
-}
-
-.curso {
-  background-color: #FAE8B3;
-  text-align: center;
-  align-content: space-around;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  color: #522F15;
-}
-.curso img {
-  width: 45%;
-  align-items: center;
-  justify-items: center;
-  margin-top: 30px;
-  margin-bottom: 50px;
-  border-color: #522F15;
-  border-style: ridge;
-  border-radius: 5px;
 }
 
 /*footer*/
@@ -268,7 +221,6 @@ footer {
   justify-content: flex-end;
   align-items: flex-end;
   margin-right: 10px;
-  margin-bottom: 10px;
 }
 footer div {
   display: flex;

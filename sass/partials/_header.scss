@@ -1,4 +1,4 @@
-/*header*/
+/*header-banner*/
 header{
     background-color:$marron; 
 
@@ -39,5 +39,25 @@ header{
         }     
     }
           
-}  
+} 
+
+.banner{
+  background-color:$beige;
+  text-align:center;
+  align-content: space-around;
+  background-size:contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  color:$marron;
+
+  .tituloBanner{
+    font-size: 5rem;
+    font-style: italic;
+    align-items: center;
+
+  .textoBanner{
+    align-items: center;
+  }
+  }
+}
      

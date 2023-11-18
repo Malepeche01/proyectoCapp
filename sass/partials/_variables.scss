@@ -6,6 +6,43 @@ $font:'Montserrat', sans-serif;
 $beige:#FAE8B3;
 $marron:#522F15;
 
+/*mixin*/
+
+//
+
+@mixin parrafo ($direccion, $textalign,$justify, $aligni, $color, $font){
+    display: flex;
+    flex-direction: $direccion;
+    text-align: $textalign;
+    justify-content: $justify;
+    align-items: $aligni;
+    color: $color;
+    font-size: $font;
+}
+
+    .texto1 p{
+        @include parrafo(row, center, center,center, $marron, large) 
+    }
+    .cafe p{
+        @include parrafo(row, center, center, center, $marron, medium) 
+      }
+
+    p{
+        @include parrafo(column, center,center, center, $marron, medium)
+    }
+
+    .divisor p{
+        @include parrafo(column,center ,center ,center ,$beige ,medium )
+    }
+
+        
+
+    
+
+
+
+
+
 
 
 

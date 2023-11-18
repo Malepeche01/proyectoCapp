@@ -1,31 +1,11 @@
 /*main productos*/  
-.banner{
-  background-color:#FAE8B3;
-  text-align:center;
-  align-content: space-around;
-  background-size:contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  color: #522F15;
 
-  .tituloBanner{
-    font-size: 5rem;
-    font-style: italic;
-  }
-}
+
   .divisor {
     
     background-color: #28170a;
-    p{
-      display: flex;
-      flex-direction: column;
-      align-content:center;
-      align-items: center;
-      color: beige;
-    }
-  }
-
-    
+  
+      
     .cafe{
       .container-fluid{
         background-position: center;
@@ -34,7 +14,6 @@
 
     }
     
-
   
         .col-6 {
 
@@ -45,6 +24,8 @@
           flex-direction: column;
           justify-content: center;
 
+  
+            
           
           p {
             display: flex;
@@ -76,7 +57,10 @@
           font-size:large;
         } 
 
+    
+  
+      }
     }
-            
+      
         
         

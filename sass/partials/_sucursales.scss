@@ -1,47 +1,17 @@
 /*main productos*/  
-.banner{
-    background-color:#FAE8B3;
-    text-align:center;
-    align-content: space-around;
-    background-size:contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: #522F15;
   
-    .tituloBanner{
-      font-size: 5rem;
-      font-style: italic;
-  
-    .divisor p{
-        background-color: #28170a;
-    }
-}
-}
-
 .suc {
-  background-color:#FAE8B3;
-  text-align:center;
-  align-content: space-around;
-  background-size:contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  color: #522F15;
-
-
+  @extend .booking;
+  
   img {
-    width:30%;
+    width: 20%;
     align-items: center;
-    justify-items: center;
+    margin-left: 10px;
     margin-top: 30px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+    border-radius: 5px;
     border-color: #522F15;
     border-style:ridge;
-    border-radius: 5px;
-  
-    p{
-      margin-bottom: 0px;
-
-}
-
   }
+   
 }
