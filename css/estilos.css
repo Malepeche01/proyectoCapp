@@ -143,41 +143,6 @@ header nav .container-fluid ul li :hover {
 .divisor {
   background-color: #28170a;
 }
-.divisor .cafe .container-fluid {
-  background-position: center;
-  align-items: center;
-  justify-content: center;
-}
-.divisor .cafe .col-6 {
-  width: 50%;
-  margin-top: 1rem;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-}
-.divisor .cafe .col-6 p {
-  display: flex;
-  text-align: center;
-  align-items: center;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
-.divisor .cafe .col-6 .img-fluid {
-  display: flex;
-  align-items: center;
-  border-radius: 5px;
-  border-color: #522F15;
-  border-style: ridge;
-}
-.divisor .cafe .col-8-sm {
-  display: flex;
-  flex-direction: column;
-  color: #28170a;
-  text-align: center;
-  align-items: center;
-  font-size: large;
-}
 
 /*main reservas*/
 .booking, .curso, .suc {
@@ -201,17 +166,6 @@ header nav .container-fluid ul li :hover {
 }
 
 /*main productos*/
-.suc img {
-  width: 20%;
-  align-items: center;
-  margin-left: 10px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  border-radius: 5px;
-  border-color: #522F15;
-  border-style: ridge;
-}
-
 /*footer*/
 footer {
   background-color: white;
