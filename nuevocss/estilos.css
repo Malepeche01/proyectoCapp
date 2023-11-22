@@ -1,0 +1,202 @@
+/*tipografia*/
+/*colores*/
+/*mixin*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+.texto1 p {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #522F15;
+  font-size: large;
+}
+
+.cafe p {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #522F15;
+  font-size: medium;
+}
+
+p {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #522F15;
+  font-size: medium;
+}
+
+.divisor p {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #FAE8B3;
+  font-size: medium;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+  font-size: 62.5%;
+}
+
+h1 {
+  font-size: medium;
+}
+
+h2 {
+  font-size: larger;
+}
+
+p {
+  font-size: medium;
+}
+
+.miColor {
+  background-color: #522F15;
+}
+
+/*header-banner*/
+header {
+  background-color: #522F15;
+}
+header nav {
+  background-color: #522F15;
+}
+header nav a {
+  color: #FAE8B3;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: small;
+}
+header nav .container-fluid .logo {
+  width: 90px;
+  height: 84px;
+}
+header nav .container-fluid .navbar-toggler {
+  background-color: #FAE8B3;
+}
+header nav .container-fluid ul {
+  list-style-type: none;
+}
+header nav .container-fluid ul .navbar-nav {
+  display: flex;
+}
+header nav .container-fluid ul li :visited {
+  color: darkseagreen;
+}
+header nav .container-fluid ul li :active {
+  color: aqua;
+}
+header nav .container-fluid ul li :hover {
+  color: rgb(193, 114, 10);
+}
+
+.banner {
+  background-color: #FAE8B3;
+  text-align: center;
+  align-content: space-around;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #522F15;
+}
+.banner .tituloBanner {
+  font-size: 5rem;
+  font-style: italic;
+  align-items: center;
+}
+.banner .tituloBanner .textoBanner {
+  align-items: center;
+}
+
+/*main index*/
+.nosotros {
+  background-size: cover;
+}
+.nosotros img {
+  width: 100%;
+}
+.nosotros img .texto1 {
+  background-color: #FAE8B3;
+}
+.nosotros img .texto1 p {
+  color: rgb(226, 207, 164);
+}
+.nosotros img .texto1 .cafe p {
+  display: flex;
+  flex-direction: column;
+  color: #28170a;
+  text-align: center;
+  align-items: center;
+  font-size: large;
+}
+
+/*main productos*/
+.divisor {
+  background-color: #28170a;
+}
+
+/*main reservas*/
+.booking, .curso, .suc {
+  background-color: #FAE8B3;
+  text-align: center;
+  align-content: space-around;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #522F15;
+}
+.booking img, .curso img, .suc img {
+  width: 20%;
+  align-items: center;
+  margin-left: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  border-color: #522F15;
+  border-style: ridge;
+}
+
+/*main productos*/
+/*footer*/
+footer {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-right: 10px;
+}
+footer div {
+  display: flex;
+  width: 30%;
+  align-content: center;
+  align-items: end;
+  margin-right: 0%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: end;
+}
+footer div img {
+  width: 30px;
+}
+footer div .logoSobre {
+  margin-right: auto;
+}
+footer div .logoFacebook {
+  margin-left: auto;
+}
+footer div .logoInstagram {
+  margin-left: auto;
+}
+
+/*# sourceMappingURL=estilos.css.map */
