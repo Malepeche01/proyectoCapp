@@ -135,6 +135,7 @@ header nav .container-fluid ul li :hover {
   flex-direction: column;
   color: #28170a;
   text-align: center;
+  justify-content: center;
   align-items: center;
   font-size: large;
 }
