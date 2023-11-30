@@ -1,12 +1,21 @@
 /*main reservas*/
+* {
+  margin: 0;
+  padding: 0;
 
+  box-sizing: border-box;
+}
+main {
+.banner{
+  background-size:cover
+}
 .booking {
   background-color:#FAE8B3;
-  text-align:center;
-  align-content: space-around;
-  background-size:contain;
-  background-position: center;
+  background-size:cover;
   background-repeat: no-repeat;
+  text-align:center;
+
+  background-position: center;
   color: #522F15;
 
     img {
@@ -21,8 +30,7 @@
     }
    
   }
-  
-  
+}
   
 
      

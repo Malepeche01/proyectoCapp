@@ -144,12 +144,23 @@ header nav .container-fluid ul li :hover {
   background-color: #28170a;
 }
 
+.cafe {
+  background-size: cover;
+  align-content: center;
+  align-items: center;
+}
+
 /*main reservas*/
+.banner {
+  background-size: cover;
+}
+
 .booking, .curso, .suc {
   background-color: #FAE8B3;
+  background-size: cover;
+  background-repeat: no-repeat;
   text-align: center;
   align-content: space-around;
-  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   color: #522F15;
@@ -166,6 +177,21 @@ header nav .container-fluid ul li :hover {
 }
 
 /*main productos*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+form p {
+  font-size: medium;
+}
+
+.label-large {
+  font-size: medium;
+  color: #522F15;
+}
+
 /*footer*/
 footer {
   background-color: white;

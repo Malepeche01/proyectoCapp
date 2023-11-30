@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="descripcion" content="reserva mesa en tu sucursal preferida y veni a disfrutar solo o con amigos">
     <meta name="keywords" content="reserva, mesa, fecha, bar, cafe">
@@ -35,51 +36,55 @@
 						</div>
 					</div>
 				</nav>
-	</header>
-    <main>
-        <section class="banner">
+</header>
+    
+<main>
+      <section class="banner">
             <h1 class="tituloBanner">Capp</h1>
             <p class="textoBanner">El café como te gusta</p>
-        </section>
-					<article class="divisor">
-							<p>Reservas</p>  
-					</article>   
+        </section> 
+        <article class="divisor">
+							<h2>
+                <p>Reservas</p>
+              </h2> 
+        </article>   
 	
 		<article class="booking">
 			<div class="container-fluid">
-        <p>Completá con tus datos y elegí tu sucursal preferida</p> 
-        <div>
-          <a href="../index.html"><img class="img-fluid" src="../medios/calendar.png" alt="dibujo calendario"></a>	
-        </div>
-		</article>			
     
-    
+            <p>Completá con tus datos y elegí tu sucursal preferida</p> 
+          <div>
+            <a href="../index.html"><img class="img-fluid" src="../medios/calendar.png" alt="dibujo calendario"></a>	
+          </div>
+          <div class="row p-2 d-flex sm-3 justify-content-center">
     <form>
-      <div class="row p-2 sm-3 justify-content-center">
-        <div class="col-sm-6">
-          <input type="email" class="form-control" id="floatingInput" placeholder="email">
-          <label class="visually-hidden" for="autoSizingSelect">Preference</label> 
-        </div>
-      </div>
       
+          <div class="col-sm-6">
+            <input type="email" class="form-control form-control-lg" id="floatingInput" placeholder="email">
+            <label class="visually-hidden" for="autoSizingSelect">Preference</label> 
+          </div>
+      </div>
       <div class="row p-2 sm-3 justify-content-center">
         <label class="visually-hidden" for="autoSizingSelect">Preference</label>
         <div class="col-sm-6">
-          <select class="form-select" id="autoSizingSelect">
+          <select class="form-select form-select-lg" id="autoSizingSelect">
             <option selected>Elegí una sucursal</option>
             <option value="1">Palermo</option>
             <option value="2">Urquiza</option>
             <option value="3">Olivos</option>
-            </select>
+          </select>
           </div>
       </div>
           <div class="row p-2 sm-3 justify-content-center">
             <div class="col-sm-6">
-              <button type="submit" class="btn btn-primary">Enviar</button>
+              <button type="submit-lg" class="btn-lg btn-primary">Enviar</button>
             </div>
-          </div>
-  </form>
-  </main>     
+          </div>     
+      </form>
+    
+    </div>
+  </article>
+</main>     
     
   <footer class="container-fluid">
     <div>

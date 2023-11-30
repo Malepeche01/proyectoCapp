@@ -144,17 +144,35 @@ header nav .container-fluid ul li :hover {
   background-color: #28170a;
 }
 
-/*main reservas*/
-.booking, .curso, .suc {
-  background-color: #FAE8B3;
-  text-align: center;
-  align-content: space-around;
+.cafe {
+  display: flex;
   background-size: contain;
-  background-position: center;
+  align-content: center;
+  align-items: center;
+}
+.cafe .img-fluid {
+  size: 40%;
+}
+
+/*main reservas*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main .banner {
+  background-size: cover;
+}
+main .booking, main .curso, main .suc {
+  background-color: #FAE8B3;
+  background-size: cover;
   background-repeat: no-repeat;
+  text-align: center;
+  background-position: center;
   color: #522F15;
 }
-.booking img, .curso img, .suc img {
+main .booking img, main .curso img, main .suc img {
   width: 20%;
   align-items: center;
   margin-left: 10px;
@@ -166,6 +184,21 @@ header nav .container-fluid ul li :hover {
 }
 
 /*main productos*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+form p {
+  font-size: medium;
+}
+
+.label-large {
+  font-size: medium;
+  color: #522F15;
+}
+
 /*footer*/
 footer {
   background-color: white;
