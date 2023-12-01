@@ -156,22 +156,15 @@ header nav .container-fluid ul li :hover {
 }
 
 /*main reservas*/
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 main .banner {
   background-size: cover;
 }
 main .booking, main .curso, main .suc {
+  display: flex;
   background-color: #FAE8B3;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-size: contain;
+  align-content: center;
   text-align: center;
-  background-position: center;
-  color: #522F15;
 }
 main .booking img, main .curso img, main .suc img {
   width: 20%;
