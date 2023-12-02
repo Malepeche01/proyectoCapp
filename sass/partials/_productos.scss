@@ -5,16 +5,28 @@
     background-color: #28170a;
        
  }
- .cafe {
-  display: flex;
-  background-size:contain;
-  align-content: center;
-  align-items: center;
+
+ main {
+
+ 
+  .cafe {
+    display: flex;
+    background-size:contain;
+    align-content: center;
+    align-items: center;
    
-    .img-fluid{
-      size: 40%;
-    }
+      .img-fluid {
+        width: 30%;
+        align-items: center;
+        margin-left: 10px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        border-radius: 5px;
+        border-color: #522F15;
+        border-style: ridge;
+      }
  }
+}
                
 
        

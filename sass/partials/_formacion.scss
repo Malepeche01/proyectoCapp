@@ -1,22 +1,42 @@
+/*main formacion*/
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-.curso {
-    @extend .booking;
+
+
+main{
+  .curso {
+    .container-fluid p{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
     }
-    form{
-        p{
-            font-size: medium;
+      @extend .booking;
+       
+        .img-fluid {
+            width: 40%;
+            align-items: center;
+            margin-left: 10px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            border-radius: 5px;
+            border-color: #522F15;
+            border-style: ridge;
+            }
+          form{
+              p{
+                  font-size: medium;
+                  margin: top 15px; ;
+              }
+          }
+              .label-large {
+              font-size: medium;
+              color: $marron;
         }
-    }
-        .label-large {
-        font-size: medium;
-        color: $marron;
-     }
 
-
+}
+}
 
  

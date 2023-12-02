@@ -145,29 +145,14 @@ header nav .container-fluid ul li :hover {
   background-color: #28170a;
 }
 
-.cafe {
+main .cafe {
   display: flex;
   background-size: contain;
   align-content: center;
   align-items: center;
 }
-.cafe .img-fluid {
-  size: 40%;
-}
-
-/*main reservas*/
-main .banner {
-  background-size: cover;
-}
-main .booking, main .curso, main .suc {
-  display: flex;
-  background-color: #FAE8B3;
-  background-size: contain;
-  align-content: center;
-  text-align: center;
-}
-main .booking img, main .curso img, main .suc img {
-  width: 20%;
+main .cafe .img-fluid {
+  width: 30%;
   align-items: center;
   margin-left: 10px;
   margin-top: 30px;
@@ -177,18 +162,77 @@ main .booking img, main .curso img, main .suc img {
   border-style: ridge;
 }
 
-/*main productos*/
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+/*main reservas*/
+html {
+  background-size: cover;
 }
 
-form p {
+body {
+  background-size: 100%;
+}
+
+main .banner {
+  background-size: cover;
+}
+main .booking, main .curso, main .suc {
+  display: flex;
+  background-color: #FAE8B3;
+  background-size: 100%;
+  align-content: center;
+  text-align: center;
+}
+main .booking .container-fluid p, main .curso .container-fluid p, main .suc .container-fluid p {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+main .booking .img-fluid, main .curso .img-fluid, main .suc .img-fluid {
+  width: 50%;
+  align-items: center;
+  margin-left: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  border-color: #522F15;
+  border-style: ridge;
+}
+
+/*main sucursales*/
+main .suc .img-fluid {
+  width: 40%;
+  align-items: center;
+  margin-left: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  border-color: #522F15;
+  border-style: ridge;
+}
+
+/*main formacion*/
+main .curso .container-fluid p {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+main .curso .img-fluid {
+  width: 40%;
+  align-items: center;
+  margin-left: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  border-color: #522F15;
+  border-style: ridge;
+}
+main .curso form p {
   font-size: medium;
+  margin: top 15px;
 }
-
-.label-large {
+main .curso .label-large {
   font-size: medium;
   color: #522F15;
 }

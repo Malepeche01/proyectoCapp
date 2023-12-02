@@ -1,6 +1,17 @@
-/*main productos*/  
-  
-.suc {
-  @extend .booking;
-    
-}
+/*main sucursales*/  
+main{
+  .suc {
+    @extend .booking;
+    .img-fluid {
+      width: 40%;
+      align-items: center;
+      margin-left: 10px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      border-radius: 5px;
+      border-color: #522F15;
+      border-style: ridge;
+    }
+ } 
+
+} 

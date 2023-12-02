@@ -1,5 +1,10 @@
 /*main reservas*/
-
+html{
+  background-size: cover;
+}
+body{
+  background-size:100%;
+}
 main {
 .banner{
   background-size:cover
@@ -7,26 +12,28 @@ main {
 .booking {
   display: flex;
   background-color:#FAE8B3;
-  background-size:contain;
+  background-size:100%;
   align-content: center;
   text-align:center;
-
- 
-  
-
-    img {
-      width: 20%;
+   .container-fluid p{
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+    }
+    .img-fluid {
+      width: 50%;
       align-items: center;
       margin-left: 10px;
       margin-top: 30px;
       margin-bottom: 30px;
       border-radius: 5px;
       border-color: #522F15;
-      border-style:ridge;
-    }
-   
-  }
+      border-style: ridge;
+   }
+  
 }
+} 
+
+
   
 
      
