@@ -198,7 +198,7 @@ main .booking .img-fluid, main .curso .img-fluid, main .suc .img-fluid {
 
 /*main sucursales*/
 main .suc .img-fluid {
-  width: 40%;
+  width: 50%;
   align-items: center;
   margin-left: 10px;
   margin-top: 30px;
@@ -219,7 +219,7 @@ main .curso .container-fluid p {
   margin-bottom: 1rem;
 }
 main .curso .img-fluid {
-  width: 40%;
+  width: 50%;
   align-items: center;
   margin-left: 10px;
   margin-top: 30px;
@@ -249,19 +249,19 @@ footer {
 }
 footer div {
   display: flex;
-  width: 30%;
+  width: 10%;
   align-content: center;
   align-items: end;
   margin-right: 0%;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: end;
+  justify-content: space-around;
 }
 footer div img {
   width: 30px;
 }
 footer div .logoSobre {
-  margin-right: auto;
+  margin-left: 5px;
 }
 footer div .logoFacebook {
   margin-left: auto;

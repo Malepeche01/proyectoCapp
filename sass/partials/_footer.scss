@@ -3,7 +3,7 @@
 
 footer{
         background-color: white;
-        display: flex;
+        display:flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: flex-end;
@@ -14,21 +14,23 @@ footer{
     
 
         div{
+           
             display: flex;
-            width: 30%;
+            width: 10%;
             align-content: center;
             align-items: end;
             margin-right: 0%;
             flex-direction: row;
             flex-wrap: wrap;
-            justify-content: end;
+            justify-content: space-around;
+            ;
 
             img{
               width: 30px;
             
             }
             .logoSobre{
-                margin-right:auto;
+                margin-left:5px;
             }
             .logoFacebook{
                 margin-left:auto;
@@ -36,5 +38,8 @@ footer{
             .logoInstagram{
                 margin-left:auto;
             }
+           
         }
+        
 } 
+
