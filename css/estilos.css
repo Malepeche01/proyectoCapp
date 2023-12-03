@@ -186,7 +186,7 @@ main .booking .container-fluid p, main .curso .container-fluid p, main .suc .con
   margin-bottom: 1rem;
 }
 main .booking .img-fluid, main .curso .img-fluid, main .suc .img-fluid {
-  width: 50%;
+  width: 70%;
   align-items: center;
   margin-left: 10px;
   margin-top: 30px;
