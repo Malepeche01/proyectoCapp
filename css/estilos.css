@@ -242,7 +242,7 @@ footer {
   background-color: white;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: flex-end;
   align-items: flex-end;
   margin-right: 10px;
@@ -253,8 +253,8 @@ footer div {
   align-content: center;
   align-items: end;
   margin-right: 0%;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
   justify-content: space-around;
 }
 footer div img {
