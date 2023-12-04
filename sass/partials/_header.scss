@@ -18,10 +18,10 @@ header{
           }
       
           .navbar-toggler{
-              background-color:$beige;
+              border: none !important;
+              color: #FAE8B3;
+            }   
           }
-             
-       
             ul{ 
               list-style-type: none;
               .navbar-nav{
@@ -40,7 +40,7 @@ header{
         }     
     }
           
-} 
+
 
 .banner{
   background-color:$beige;

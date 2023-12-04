@@ -81,21 +81,22 @@ header nav .container-fluid .logo {
   height: 84px;
 }
 header nav .container-fluid .navbar-toggler {
-  background-color: #FAE8B3;
+  border: none !important;
+  color: #FAE8B3;
 }
-header nav .container-fluid ul {
+header nav ul {
   list-style-type: none;
 }
-header nav .container-fluid ul .navbar-nav {
+header nav ul .navbar-nav {
   display: flex;
 }
-header nav .container-fluid ul li :visited {
+header nav ul li :visited {
   color: darkseagreen;
 }
-header nav .container-fluid ul li :active {
+header nav ul li :active {
   color: aqua;
 }
-header nav .container-fluid ul li :hover {
+header nav ul li :hover {
   color: rgb(193, 114, 10);
 }
 
@@ -245,7 +246,7 @@ footer {
   flex-wrap: nowrap;
   justify-content: flex-end;
   align-items: flex-end;
-  margin-right: 10px;
+  margin-right: 0px;
 }
 footer div {
   display: flex;
