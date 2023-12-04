@@ -8,27 +8,26 @@ footer{
         flex-wrap: nowrap;
         justify-content: flex-end;
         align-items: flex-end;
-        margin-right: 0px;
         
         
         div{
             display:flex;
-            width: 20%;
-            align-content: center;
-            align-items: end;
-            margin-right: 0%;
+            width: screen;
+            // align-content: center;
+            // align-items: end;
+            // margin-right: 0%;
             flex-direction: row-reverse;
             flex-wrap: nowrap;
-            justify-content: space-around;
-
+            justify-content:space-around;
+            margin-right: 8px;
 
             img{
               width: 30px;
             
             }
-            .logoSobre{
-                margin-left:5px;
-            }
+            // .logoSobre{
+            //     margin-left:5px;
+            // }
             .logoFacebook{
                 margin-left:auto;
             }  
