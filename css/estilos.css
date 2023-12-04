@@ -123,6 +123,10 @@ header nav ul li :hover {
 }
 
 /*main index*/
+body {
+  margin: 0%;
+}
+
 .nosotros {
   background-size: cover;
 }
