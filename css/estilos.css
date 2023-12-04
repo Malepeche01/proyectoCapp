@@ -47,6 +47,10 @@ html {
   font-size: 62.5%;
 }
 
+main {
+  margin-right: 0%;
+}
+
 h1 {
   font-size: medium;
 }
