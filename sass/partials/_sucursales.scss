@@ -12,6 +12,16 @@ main{
       border-color: #522F15;
       border-style: ridge;
     }
+      .container{
+       
+        .map{
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          align-items: center;
+        }
+
+      }
  } 
 
 } 

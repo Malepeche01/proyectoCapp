@@ -216,6 +216,12 @@ main .suc .img-fluid {
   border-color: #522F15;
   border-style: ridge;
 }
+main .suc .container .map {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
 
 /*main formacion*/
 main .curso .container-fluid p {
