@@ -13,21 +13,17 @@ footer{
         div{
             display:flex;
             width: screen;
-            // align-content: center;
-            // align-items: end;
-            // margin-right: 0%;
             flex-direction: row-reverse;
             flex-wrap: nowrap;
             justify-content:space-around;
             margin-right: 8px;
+            margin-top: 8px;
 
             img{
               width: 30px;
             
             }
-            // .logoSobre{
-            //     margin-left:5px;
-            // }
+            
             .logoFacebook{
                 margin-left:auto;
             }  

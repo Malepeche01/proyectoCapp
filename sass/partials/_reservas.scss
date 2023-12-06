@@ -16,8 +16,10 @@ main {
   align-content: center;
   text-align:center;
    .container-fluid p{
-      margin-top: 2rem;
+      margin-top: 4rem;
       margin-bottom: 1rem;
+      font-weight: bold;
+    
     }
     .img-fluid {
       width: 70%;
@@ -29,7 +31,10 @@ main {
       border-color: #522F15;
       border-style: ridge;
    }
-  
+   .formulario {
+    margin-top: 60px;
+    margin-bottom: 40px;
+   }
 }
 } 
 

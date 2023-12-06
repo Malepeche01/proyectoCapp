@@ -10,33 +10,23 @@ main{
       text-align: center;
       justify-content: center;
       align-items: center;
-      margin-top: 2rem;
-      margin-bottom: 1rem;
+      margin-top: 4rem;
+      margin-bottom: 4rem;
     }
       @extend .booking;
-       
-        .img-fluid {
-            width: 50%;
-            align-items: center;
-            margin-left: 10px;
-            margin-top: 30px;
-            margin-bottom: 30px;
-            border-radius: 5px;
-            border-color: #522F15;
-            border-style: ridge;
-            }
           form{
               p{
                   font-size: medium;
-                  margin: top 15px; ;
+                  
               }
           }
               .label-large {
               font-size: medium;
               color: $marron;
-        }
+              }
+            }
 
-}
-}
+  }
+
 
  

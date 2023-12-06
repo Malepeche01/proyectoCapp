@@ -1,32 +1,30 @@
 
 /*main index*/
 
-body{
-  margin: 0%;
-}
+main{
+
     .nosotros{
       background-size: cover;
+      display: flex;
+      flex-direction: column;
+      background-color:$beige;
 
         img{
           
           width:100%;
+          margin-bottom: 30px;
+       
+        
         .texto1{
-            background-color:$beige ;
-            p{
-              color: rgb(226, 207, 164);
-          }
-        .cafe p{
           display: flex;
           flex-direction: column;
-          color:#28170a;
-          text-align:center;
-          justify-content: center;
-          align-items:center;
-          font-size:large;
+          background-color:$beige;
+          
+
+
           }
         }
-        
+      }
     }
-  }
-
+  
   

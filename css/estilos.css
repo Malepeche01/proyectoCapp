@@ -123,30 +123,20 @@ header nav ul li :hover {
 }
 
 /*main index*/
-body {
-  margin: 0%;
-}
-
-.nosotros {
+main .nosotros {
   background-size: cover;
-}
-.nosotros img {
-  width: 100%;
-}
-.nosotros img .texto1 {
-  background-color: #FAE8B3;
-}
-.nosotros img .texto1 p {
-  color: rgb(226, 207, 164);
-}
-.nosotros img .texto1 .cafe p {
   display: flex;
   flex-direction: column;
-  color: #28170a;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  font-size: large;
+  background-color: #FAE8B3;
+}
+main .nosotros img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+main .nosotros img .texto1 {
+  display: flex;
+  flex-direction: column;
+  background-color: #FAE8B3;
 }
 
 /*main productos*/
@@ -159,6 +149,7 @@ main .cafe {
   background-size: contain;
   align-content: center;
   align-items: center;
+  margin-top: 4rem;
 }
 main .cafe .img-fluid {
   width: 30%;
@@ -191,8 +182,9 @@ main .booking, main .curso, main .suc {
   text-align: center;
 }
 main .booking .container-fluid p, main .curso .container-fluid p, main .suc .container-fluid p {
-  margin-top: 2rem;
+  margin-top: 4rem;
   margin-bottom: 1rem;
+  font-weight: bold;
 }
 main .booking .img-fluid, main .curso .img-fluid, main .suc .img-fluid {
   width: 70%;
@@ -203,6 +195,10 @@ main .booking .img-fluid, main .curso .img-fluid, main .suc .img-fluid {
   border-radius: 5px;
   border-color: #522F15;
   border-style: ridge;
+}
+main .booking .formulario, main .curso .formulario, main .suc .formulario {
+  margin-top: 60px;
+  margin-bottom: 40px;
 }
 
 /*main sucursales*/
@@ -230,22 +226,11 @@ main .curso .container-fluid p {
   text-align: center;
   justify-content: center;
   align-items: center;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-}
-main .curso .img-fluid {
-  width: 50%;
-  align-items: center;
-  margin-left: 10px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  border-radius: 5px;
-  border-color: #522F15;
-  border-style: ridge;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 main .curso form p {
   font-size: medium;
-  margin: top 15px;
 }
 main .curso .label-large {
   font-size: medium;
@@ -268,6 +253,7 @@ footer div {
   flex-wrap: nowrap;
   justify-content: space-around;
   margin-right: 8px;
+  margin-top: 8px;
 }
 footer div img {
   width: 30px;
